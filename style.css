@@ -1,0 +1,128 @@
+:root {
+	--colorone: #6441a5;
+	--hoverone: #4d3a89;
+	--hovertwo: #264b80;
+	--colorthree: #3a6bbe;
+	--white: #fff;
+	--dark: #000000;
+}
+
+body {
+	font-family: Oxygen, sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.hero {
+	background-image: url(/images/index.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 686px;
+	background-attachment: fixed;
+}
+.hero .js {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hero .js h1 {
+	text-align: center;
+	color: var(--white);
+	font-size: 48px;
+	margin-top: 56px;
+	padding: 24px 0;
+}
+.hero img {
+	height: 380px;
+	margin-top: 48px;
+}
+
+.hero nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	transform: translateY(48px);
+}
+.hero nav a {
+	background-color: var(--dark);
+	color: var(--white);
+	padding: 24px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.hero nav li a img.icon {
+	height: 36px;
+	margin: 0;
+}
+.hero nav a > span {
+	color: var(--white);
+	font-size: 24px;
+	font-weight: 500;
+	margin-left: 24px;
+}
+
+.notice {
+	background-color: var(--colorone);
+	color: var(--white);
+	text-align: center;
+	padding: 1.2rem;
+}
+
+main {
+	margin: 92px 0;
+}
+
+.container {
+	margin: auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.grid {
+	grid-gap: 0 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+
+.box {
+	min-height: 275px;
+	position: relative;
+	color: var(--white);
+	background-color: var(--colorthree);
+	box-shadow: inset 0 0 140px rgb(0 0 0 / 25%), 0 0 30px rgb(0 0 0 / 25%);
+	overflow: hidden;
+	padding: 25px;
+	margin: 20px 0;
+	text-align: left;
+	text-shadow: 2px 1px 5px rgb(0 0 0 / 25%);
+	text-decoration: none;
+}
+
+.box img {
+	height: 138px;
+}
+
+.button-box {
+	display: inline-flex;
+	align-items: center;
+	padding: 8px 12px;
+	font-size: 20px;
+	background-color: var(--hovertwo);
+	border: none;
+	cursor: pointer;
+	color: var(--white);
+}
+
+.button-box img {
+	height: 24px;
+	margin-right: 6px;
+}
