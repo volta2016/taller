@@ -132,12 +132,13 @@ main {
 	background-color: var(--colorone);
 }
 
-.box img.iconanimate {
+.box .iconanimate {
 	height: 118px;
 	width: 118px;
 	position: absolute;
-	transform: translate(300px, 5px);
-	transition: transform 0.5s;
+	right: 10px;
+	bottom: -50px;
+	transition: all 0.5s;
 }
 
 .transform {
@@ -169,6 +170,25 @@ main {
 .button-box img {
 	height: 24px;
 	margin-right: 8px;
+}
+
+.box:hover .iconanimate {
+	bottom: 16px;
+}
+a:nth-child(1):hover {
+	background-color: var(--hoverone);
+}
+
+a:nth-child(1):hover .button-box {
+	background-color: var(--colorone);
+}
+
+.box:hover {
+	background-color: var(--hovertwo);
+}
+
+.box:hover .button-box {
+	background-color: var(--colorthree);
 }
 
 footer {
@@ -223,6 +243,24 @@ small {
 
 @media screen and (max-width: 960px) {
 	.hero nav ul {
+		display: none;
+	}
+
+	.box p {
+		max-width: 75%;
+	}
+
+	.effect {
+		width: 90%;
+	}
+
+	.box .iconanimate {
+		right: 10%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.iconanimate {
 		display: none;
 	}
 }
