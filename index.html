@@ -1,154 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-	<body>
-		<header>
-			<div class="notice">
-				<p>imply dummy text of the <b>printing</b> and typesetting</p>
-			</div>
-			<div class="hero">
-				<div class="js">
-					<img
-						class="effect"
-						src="./images/logo-javascript.svg"
-						alt="JavaScript"
-					/>
-					<h1>Lenguaje js</h1>
-				</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop html CSS JavaScript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="modal d-none" id="modal">
+      <div class="bodyModal">
+        <button class="close" id="close">X</button>
+        <input type="text" placeholder="Escribe tu correo" />
+        <button>Enviar</button>
+      </div>
+    </div>
 
-				<nav>
-					<ul>
-						<li>
-							<a href="#"
-								><img
-									class="icon"
-									src="./images/home-solid.svg"
-									alt="home"
-								/><span>HOME</span></a
-							>
-						</li>
-						<li>
-							<a href="#"
-								><img
-									class="icon"
-									src="./images/comment-alt-solid.svg"
-									alt="comment"
-								/><span>POST</span></a
-							>
-						</li>
-						<li>
-							<a href="#"
-								><img
-									class="icon"
-									src="./images/instagram-brands.svg"
-									alt="instagram"
-								/><span>INSTAGRAM</span></a
-							>
-						</li>
-						<li>
-							<a href="#"
-								><img
-									class="icon"
-									src="./images/twitter-brands.svg"
-									alt="twitter"
-								/><span>TWITTER</span></a
-							>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main>
-			<div class="container">
-				<div class="grid">
-					<a class="box css" href="">
-						<h2>CheatSheets</h2>
-						<p>
-							Is simply dummy text of the printing and typesetting industry.
-							Lorem Ipsum has been the industry's standard dummy text ever since
-							the 1500s. Is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s.
-						</p>
-						<button class="button-box button-download">
-							<img src="./images/file-download-solid.svg" alt="file download" />
-							<span>download</span>
-						</button>
-						<img class="iconanimate" src="./images/css3.svg" alt="css3" />
-					</a>
-					<a class="box" href="">
-						<h2>JavaScript</h2>
-						<p>
-							Is simply dummy text of the printing and typesetting industry.
-							Lorem Ipsum has been the industry's standard dummy text ever since
-							the 1500s. Is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s.
-						</p>
-						<button class="button-box">
-							<img src="./images/book-solid.svg" alt="book" />
-							<span>acceder</span>
-						</button>
-						<img
-							class="iconanimate"
-							src="./images/logo-javascript.svg"
-							alt="javascript"
-						/>
-					</a>
-					<a class="box" href="">
-						<h2>Svelte</h2>
-						<p>
-							Is simply dummy text of the printing and typesetting industry.
-							Lorem Ipsum has been the industry's standard dummy text ever since
-							the 1500s. Is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s.
-						</p>
-						<button class="button-box">
-							<img src="./images/book-solid.svg" alt="book" />
-							<span>acceder</span>
-						</button>
-						<img class="iconanimate" src="./images/svelte.svg" alt="svelte" />
-					</a>
-					<a class="box" href="">
-						<h2>Vue</h2>
-						<p>
-							Is simply dummy text of the printing and typesetting industry.
-							Lorem Ipsum has been the industry's standard dummy text ever since
-							the 1500s. Is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s.
-						</p>
-						<button class="button-box">
-							<img src="./images/book-solid.svg" alt="book" />
-							<span>acceder</span>
-						</button>
-						<img class="iconanimate" src="./images/vue.svg" alt="vue" />
-					</a>
-				</div>
-			</div>
-		</main>
-		<footer>
-			<h3>Lenguaje JS</h3>
-			<p>
-				is simply dummy text of the printing and typesetting industry.
-				<br />Lorem Ipsum has been the industry's standard dummy text ever.
-			</p>
-			<div class="rrss">
-				<a href="https://instagram.com/">
-					<img src="./images/instagram-brands.svg" alt="instagram" />
-				</a>
-				<a href="https://twitter.com/">
-					<img src="./images/twitter-brands.svg" alt="twitter-brands" />
-				</a>
-			</div>
-			<small>© Copyright 2021 Workshop </small>
-		</footer>
-	</body>
+    <header>
+      <div class="notice">
+        <p>imply dummy text of the <b>printing</b> and typesetting</p>
+      </div>
+      <div class="hero">
+        <div class="js">
+          <img
+            class="effect"
+            src="./images/logo-javascript.svg"
+            alt="JavaScript"
+          />
+          <h1>Lenguaje js</h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  class="icon"
+                  src="./images/home-solid.svg"
+                  alt="home"
+                /><span>HOME</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="icon"
+                  src="./images/comment-alt-solid.svg"
+                  alt="comment"
+                /><span>POST</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="icon"
+                  src="./images/instagram-brands.svg"
+                  alt="instagram"
+                /><span>INSTAGRAM</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="icon"
+                  src="./images/twitter-brands.svg"
+                  alt="twitter"
+                /><span>TWITTER</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="grid">
+          <aside class="box css">
+            <h2>CheatSheets</h2>
+            <p>
+              Is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s. Is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <a href="#" class="button-box button-download">
+              <img src="./images/file-download-solid.svg" alt="file download" />
+              <span>download</span>
+            </a>
+            <img class="iconanimate" src="./images/css3.svg" alt="css3" />
+          </aside>
+          <aside class="box">
+            <h2>JavaScript</h2>
+            <p>
+              Is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s. Is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <a href="#" class="button-box">
+              <img src="./images/book-solid.svg" alt="book" />
+              <span>acceder</span>
+            </a>
+            <img
+              class="iconanimate"
+              src="./images/logo-javascript.svg"
+              alt="javascript"
+            />
+          </aside>
+          <aside class="box">
+            <h2>Svelte</h2>
+            <p>
+              Is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s. Is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <a href="#" class="button-box">
+              <img src="./images/book-solid.svg" alt="book" />
+              <span>acceder</span>
+            </a>
+            <img class="iconanimate" src="./images/svelte.svg" alt="svelte" />
+          </aside>
+          <aside class="box">
+            <h2>Vue</h2>
+            <p>
+              Is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s. Is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <a href="#" class="button-box">
+              <img src="./images/book-solid.svg" alt="book" />
+              <span>acceder</span>
+            </a>
+            <img class="iconanimate" src="./images/vue.svg" alt="vue" />
+          </aside>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button id="btn">Suscribete al boletin</button>
+      </div>
+    </main>
+    <footer>
+      <h3>Lenguaje JS</h3>
+      <p>
+        is simply dummy text of the printing and typesetting industry.
+        <br />Lorem Ipsum has been the industry's standard dummy text ever.
+      </p>
+      <div class="rrss">
+        <a href="https://instagram.com/">
+          <img src="./images/instagram-brands.svg" alt="instagram" />
+        </a>
+        <a href="https://twitter.com/">
+          <img src="./images/twitter-brands.svg" alt="twitter-brands" />
+        </a>
+      </div>
+      <small>© Copyright 2021 Workshop </small>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
 </html>
