@@ -111,7 +111,7 @@ main {
 .grid {
   grid-gap: 0 20px;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 49%);
 }
 
 .box {
@@ -245,90 +245,6 @@ small {
   margin: 0 0 14px 0;
 }
 
-/* animation */
-
-@keyframes efecto {
-<<<<<<< HEAD
-	0% {
-		transform: translateY(0);
-	}
-
-	100% {
-		transform: translateY(20px);
-	}
-=======
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(20px);
-  }
->>>>>>> [workshop] semantic
-}
-
-/* media queries */
-@media screen and (max-width: 1024px) {
-<<<<<<< HEAD
-	.grid {
-		grid-gap: 0;
-		grid-template-columns: 100%;
-	}
-}
-
-@media screen and (max-width: 960px) {
-	.hero nav ul {
-		display: none;
-	}
-
-	.box p {
-		max-width: 75%;
-	}
-
-	.effect {
-		width: 90%;
-	}
-
-	.box .iconanimate {
-		right: 10%;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.iconanimate {
-		display: none;
-	}
-=======
-  .grid {
-    grid-gap: 0;
-    grid-template-columns: 100%;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .hero nav ul {
-    display: none;
-  }
-
-  .box p {
-    max-width: 75%;
-  }
-
-  .effect {
-    width: 90%;
-  }
-
-  .box .iconanimate {
-    right: 10%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .iconanimate {
-    display: none;
-  }
-}
-
 .modal {
   position: fixed;
   top: 0;
@@ -383,5 +299,53 @@ small {
   padding: 5px 9px;
   background-color: var(--dark);
   font-size: 20px;
->>>>>>> [workshop] semantic
+}
+
+/* animation */
+
+@keyframes efecto {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+/* media queries */
+
+@media screen and (max-width: 960px) {
+  .hero nav ul {
+    display: none;
+  }
+
+  .box p {
+    max-width: 75%;
+  }
+
+  .effect {
+    width: 90%;
+  }
+
+  .box .iconanimate {
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 100%;
+  }
+
+  .imgTarjeta {
+    display: none;
+  }
+  .hero nav ul {
+    display: none;
+  }
+
+  .iconanimate {
+    display: none;
+  }
 }
