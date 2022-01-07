@@ -26,7 +26,7 @@ Workshop para la comunidad de discord con el fin de enseñar las herramientas y 
 
 ## Resumen del Workshop puedes verlo acá 📹
 
-[Workshop para Frontend](https://www.youtube.com/watch?v=ivdTnPl1ND0)
+[Workshop para Frontend](https://youtu.be/vmQpLWuJeZ8)
 
 ## Ver landing page construida acá
 
